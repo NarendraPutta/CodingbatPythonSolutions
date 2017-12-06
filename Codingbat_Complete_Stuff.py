@@ -1656,7 +1656,145 @@ Solution 1:
 Completed Finally Successfully. Some are original thoughts, some are Java solutions
  converted, some are directly copied from Google. Eventually Good Exposure.
  
+#######################
+ Just a log: Interested can view it
+ ######################
 
+ vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions
+$ git init
+Initialized empty Git repository in A:/Codingbat_Solutions/.git/
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ rm Codingbat_Complete_Stuff.py
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ ls
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ dir
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ git remote add origin "https://github.com/NarendraPutta/CodingbatPythonSolutions.git"
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3
+Unpacking objects: 100% (3/3), done.
+From https://github.com/NarendraPutta/CodingbatPythonSolutions
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Codingbat_Complete_Stuff.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ git commit -m "Codingbat_Complete_Stuff.py"
+On branch master
+Untracked files:
+        Codingbat_Complete_Stuff.py
+
+nothing added to commit but untracked files present
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Codingbat_Complete_Stuff.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ git add "Codingbat_Complete_Stuff.py"
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ ls
+Codingbat_Complete_Stuff.py  README.md
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Codingbat_Complete_Stuff.py
+
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ git commit -m "Codingbat complete solutions" Codingbat_Complete_Stuff.py
+[master 87ab177] Codingbat complete solutions
+ 1 file changed, 1662 insertions(+)
+ create mode 100644 Codingbat_Complete_Stuff.py
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ ls
+Codingbat_Complete_Stuff.py  README.md
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/vinayb/.ssh/id_rsa):
+/c/Users/vinayb/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/vinayb/.ssh/id_rsa.
+Your public key has been saved in /c/Users/vinayb/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:irNjFMB8nI5HdFwvdBNXi8QijgPwAAeeiLsH40wr2is vinayb@BDTBF8FBX1
+The key's randomart image is:
++---[RSA 2048]----+
+|o=++.o..o +oo..  |
+|+.=o*....o.+.. . |
+|oo *.. o..... .  |
+| .. + o ..       |
+|+. . . .S        |
+|++. .. .         |
+|o+..o .          |
+|Eo  oo           |
+|..oo..           |
++----[SHA256]-----+
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ cat /c/Users/vinayb/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbcc0Sj51SSB8DWXspbcDlDO2x4X2PLFpB7IV6NID+S+ygW/P6Q3lUT4d9zkamA60t32VhVk6c5CKUzvlmnTHPiuNcYiBNJeUeSCThfFHTBLTefc5AA2NZV/fGVfc/CBXauxXwjlPdGk245GDSaTLOkEeOltZq+wyDqalqVThFRsETwea9kXK2ECmgZHZhWzRZ8A5UocqeUE8VzdJ8fPBnECGJ60qll9UIJ3VRUozHvk7HCVyEO/WPoKjmM4+051QbLSWYGJn9sN95NteTgl6BrWVmk3J4Kw1aQi5ZjZNoM81kZOiqC5uckF5qJISGexHgFGUCMA04SxAh/Cs1kVtt vinayb@BDTBF8FBX1
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ ssh -T git@github.com
+Hi NarendraPutta! You've successfully authenticated, but GitHub does not provide shell access.
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ ls
+Codingbat_Complete_Stuff.py  README.md
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 10.65 KiB | 5.33 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/NarendraPutta/CodingbatPythonSolutions.git
+   0c0a0c5..87ab177  master -> master
+
+vinayb@BDTBF8FBX1 MINGW64 /a/Codingbat_Solutions (master)
+$
+
+ 
  
 
 
